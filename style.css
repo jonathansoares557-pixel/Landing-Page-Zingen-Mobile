@@ -38,6 +38,21 @@ body {
     overflow-x: hidden;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .soundwave span {
+        animation: none;
+        transform: scaleY(0.7);
+    }
+
+    .btn {
+        transition: none;
+    }
+}
+
 .container {
     max-width: var(--container-width);
     margin: 0 auto;
