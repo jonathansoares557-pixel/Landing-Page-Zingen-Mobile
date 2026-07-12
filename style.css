@@ -80,6 +80,7 @@ a {
 
 img {
     max-width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -296,6 +297,7 @@ img {
 .phone img {
     display: block;
     width: 100%;
+    height: auto;
 }
 
 .phone-back {
@@ -350,6 +352,7 @@ img {
 
 .feature-media img {
     width: 100%;
+    height: auto;
     border-radius: 20px 0 0 0;
     display: block;
 }
